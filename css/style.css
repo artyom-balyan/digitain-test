@@ -142,6 +142,7 @@
     
     .logo span {
         font-size: 55px;
+		
     }   
 
     .info {
@@ -213,11 +214,14 @@
 
     
     .logo p {
-        font-size: 27px;
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
     }
     
     .logo span {
-        font-size: 42px;
+        font-size: 43px;
+        height: 44px;
     }   
 
     .info {
@@ -239,7 +243,7 @@
 
     .prize span {
         width: 331px;
-        font-size: 40px;
+        font-size: 38px;
         margin-left: 70px;
     }
 
@@ -320,7 +324,7 @@
 
     .prize span {
         width: 340px;
-        font-size: 41px;
+        font-size: 39px;
         margin-left: 51px;
     }
 
@@ -379,7 +383,7 @@
 
     .prize p {
         font-size: 8px;
-        width: 91px;
+        width: 80px;
         color: #fff;
         font-style: italic;
         display: flex;
@@ -388,7 +392,7 @@
 
     .prize span{
         width: 251px;
-        font-size: 30px;
+        font-size: 28px;
         margin-left: 19px;
     }
     
@@ -462,7 +466,7 @@
 
     .prize p {
         font-size: 8px;
-        width: 91px;
+        width: 86px;
         color: #fff;
         font-style: italic;
         display: flex;
@@ -475,8 +479,8 @@
     }
 
     .prize span {
-        width: 211px;
-        font-size: 25px;
+         width: 190px;
+		 font-size: 22px;
     }
 
     
@@ -542,7 +546,7 @@
 
     .prize p {
         font-size: 8px;
-        width: 91px;
+        width: 85px;
         color: #fff;
         font-style: italic;
         display: flex;
@@ -555,8 +559,8 @@
     }
 
     .prize span {
-        width: 219px;
-        font-size: 26px;
+       width: 208px;
+	   font-size: 24px;
     }
 
     
