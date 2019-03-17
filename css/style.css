@@ -1,0 +1,605 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.baner{
+    width: 1920px;
+    height: 120px;
+    background-image: url(../img/background_one.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+
+.all_content{
+    justify-content: space-between;
+    width: 95%;
+    margin: 0 auto;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo span{
+    font-size:55px;
+    color:#f14100;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo p{
+    font-size:30px;
+    color:#fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo button{
+    display: none;
+}
+
+
+.info{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left:50px;
+}
+
+.info p{
+    color:#fff;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.prize span{
+    color:#fff;
+    font-size:50px;
+    font-family: 'Chango', cursive;
+    text-shadow: -5px 0px #60c7c3;
+    letter-spacing:1px; 
+    margin-left:50px;
+}
+
+.more button{
+    color:#fff;
+    padding:12px 15px;
+    width:154px;    
+    border-radius:5px;
+    background-color:#2e9835;
+    border:none;
+    margin-left:380px;
+}
+
+
+
+
+
+@media (min-width:1921px) and (max-width:2000px){
+    .info img{
+        display: none;
+    }
+    .prize p{
+        display: none;
+    }
+}
+  
+
+
+
+
+  @media (max-width:1920px) and (min-width:1440px){
+    
+    .baner{
+        width: 1920px;
+        height: 120px;
+        background-image: url(../img/background_one.png);
+        background-repeat: no-repeat;
+        background-position:right;  
+    }
+
+    .prize img{
+        display: none;
+    }
+
+    .prize p{
+        display:none; 
+    }
+
+    
+    .logo p {
+        font-size: 35px; 
+    }
+    
+    .logo span {
+        font-size: 60px;
+    } 
+
+    .logo button{
+        display: none;
+    }
+  }
+  
+
+
+
+
+@media  (max-width:1440px) and (min-width:1200px){
+    
+    .baner{
+        width: 1440px;
+        height: 120px;
+        background-image: url(../img/background_two.png);
+        background-repeat: no-repeat;
+        background-position:right;  
+    }
+
+    
+    .logo p {
+        font-size: 30px; 
+    }
+    
+    .logo span {
+        font-size: 55px;
+    }   
+
+    .info {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }    
+
+    .info p{
+        font-size: 11px;
+        width: 274px;
+    }
+    
+    .info span{
+        font-size:9px; 
+    } 
+
+    .prize p{
+        width: 397px;
+        font-size: 45px;
+        display:none; 
+    }
+
+    .info img{
+        width: 200px;
+    }
+
+    .more{
+        width: 0;
+    }
+
+    .more button {
+        margin-left: 194px;
+    }
+
+    .all_content {
+        justify-content: flex-start;
+    }   
+
+    .prize img{
+        display: none;
+    }
+
+    
+    .prize span {
+        font-size: 45px;
+        margin-left: 136px;
+    }
+
+    .logo button{
+        display: none;
+    }
+
+}
+
+
+
+
+  
+@media (max-width:1200px) and (min-width:991px){
+    
+    .baner{
+        width: 1200px;
+        height: 120px;
+        background-image: url(../img/background_three.png);
+        background-repeat: no-repeat;
+        background-position:right;  
+    }
+
+    
+    .logo p {
+        font-size: 27px;
+    }
+    
+    .logo span {
+        font-size: 42px;
+    }   
+
+    .info {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }    
+    
+    .info p {
+        font-size: 10px;
+        width: 130px;
+    }
+
+    .prize{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prize span {
+        width: 331px;
+        font-size: 40px;
+        margin-left: 70px;
+    }
+
+    
+    .more button {
+        padding: 9px 10px;
+        margin-left: 236px;
+    }
+
+    .all_content {
+        justify-content: flex-start;
+    }   
+
+    .info img{
+        display:none; 
+    }
+
+    .prize img {
+        display: flex;
+        width: 182px;
+        margin-right: -59px;
+    }
+
+    .prize p{
+        display:none; 
+    }
+
+    .logo button{
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media  (max-width:991px) and (min-width:768px){
+    
+    .baner{
+        width: 991px;
+        height: 120px;
+        background-image: url(../img/background_four.png);
+        background-repeat: no-repeat;
+        background-position:right;  
+    }
+
+    
+
+    .logo p {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+    }
+    
+    .logo span {
+        font-size: 43px;
+        height: 44px;
+    }   
+
+    .info {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 24px;
+    }    
+    
+    .info p{
+        font-size: 9px;
+        width: 130px;
+    } 
+
+    .prize{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .prize span {
+        width: 340px;
+        font-size: 41px;
+        margin-left: 51px;
+    }
+
+    
+
+    .more button {
+        margin-left: 172px;
+        padding: 9px 9px;
+        width: 148px;
+        
+    }
+
+    .prize p{
+        display:none; 
+    }
+
+    .all_content {
+        justify-content: flex-start;
+    }   
+
+    .info img{
+        display:none; 
+    }
+
+    .prize img {
+        display: flex;
+        width: 153px;
+    }
+
+    .logo button{
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media (max-width:768px) and (min-width:500px){
+    .baner{
+        width: 768px;
+        height: 120px;
+        background-image: url(../img/background_five.png);
+        background-repeat: no-repeat;
+        background-position:right;  
+    }
+    
+
+    .prize {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .prize p {
+        font-size: 8px;
+        width: 91px;
+        color: #fff;
+        font-style: italic;
+        display: flex;
+    }
+    
+
+    .prize span{
+        width: 251px;
+        font-size: 30px;
+        margin-left: 19px;
+    }
+    
+    .prize img {
+        display: flex;
+        width: 135px;
+    }
+
+    .info p{
+        display:none; 
+    }
+
+    .info img{
+        display: none;
+    }
+
+
+    .more button {
+        padding: 9px 9px;
+        width: 148px;
+        margin-left: 184px;
+        font-size: 11px;
+    }  
+
+    .logo span {
+        font-size: 35px;
+        height: 36px;
+    }
+
+    .logo p {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }    
+
+    .logo button{
+        display: none;
+    }
+
+}
+
+
+
+
+
+@media (max-width:500px) and (min-width:350px){
+    .baner{
+        width: 500px;
+        height: 120px;
+        background-image: url(../img/background_six.png);
+        background-repeat: no-repeat;
+        background-position:right;  
+    }
+
+    
+    .prize {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -94px;
+    }
+
+
+    .info p{
+        display:none; 
+    }
+
+    .info img{
+        display: none;
+    }
+
+    .prize p {
+        font-size: 8px;
+        width: 91px;
+        color: #fff;
+        font-style: italic;
+        display: flex;
+    }
+    
+    
+    .prize img {
+        display: flex;
+        width: 122px;
+    }
+
+    .prize span {
+        width: 211px;
+        font-size: 25px;
+    }
+
+    
+
+    .more button {
+        padding: 7px 4px;
+        width: 94px;
+        margin-left: 46px;
+        font-size: 9px;
+    }
+
+    .more{
+        width: 151px;
+    }
+    
+
+    .logo p {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .logo span {
+        font-size: 35px;
+        height: 36px;
+    }
+
+    .logo button{
+        display: none;
+    }
+
+}
+
+
+
+
+
+@media  (max-width:350px){
+    .baner{
+        width: 350px;
+        height: 120px;
+        background-image: url(../img/background_seven.png);
+        background-repeat: no-repeat;
+        background-position:right;  
+    }
+
+    
+    .prize {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -88px;
+    }
+
+
+    .info p{
+        display:none; 
+    }
+
+    .info img{
+        display: none;
+    }
+
+    .prize p {
+        font-size: 8px;
+        width: 91px;
+        color: #fff;
+        font-style: italic;
+        display: flex;
+    }
+    
+    
+    .prize img {
+        display: flex;
+        width: 122px;
+    }
+
+    .prize span {
+        width: 219px;
+        font-size: 26px;
+    }
+
+    
+
+    .more button {
+        padding: 7px 4px;
+        width: 94px;
+        margin-left: 46px;
+        font-size: 9px;
+    }
+
+    .more{
+        width: 151px;
+    }
+    
+
+    .logo p {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        margin-bottom: 9px;
+    }
+
+    .logo span {
+        font-size: 35px;
+        height: 36px;
+    }
+    
+
+    .more button{
+        display: none;
+    }
+    
+
+    .logo button{
+        color:#fff;
+        padding: 7px 4px;
+        width:94px;    
+        display: flex;
+        border-radius:5px;
+        background-color:#2e9835;
+        border:none;
+        font-size: 9px;
+    }
+
+} 
